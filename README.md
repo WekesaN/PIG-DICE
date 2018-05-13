@@ -20,7 +20,7 @@ As stated above use this link: https://github.com/WekesaN/PIG-DICE togo to the o
 ## Built With
 
 -HTML5
--CSS
+-CSS3
 -BOOTSTRAP
 -JAVASCRIPTS
 -JQUERY
