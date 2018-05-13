@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en" dir="ltr">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.csscss/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link href="https://www.google.com/fonts">
+	<link rel="favicon" src="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<title>PIG-DICE</title>
+</head>
+<body>
+<div class="container-fluid">
+	<div id="main">
+		<div class="jumbotron">
+			<p><span class="w3-animate-fading">IDEE FIXE</p>
+				<i class="fa fa-spinner w3-spin" style="font-size:64px"></i>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div id="title1">
+							<p>
+								<i class="fas fa-gamepad fa-3x"></i>PLAYER 1
+							</p>
+						</div>
+						<div class="panel-body">
+							<button id="btn" class="btn" onclick="ROLL()">ROLL</button>
+							<P id="dice"></P>
+							<div class="panel-footer">
+								<ol id="player1">
+									<p><span id="ply1"></span>Your score is:<span id="output1"></span> </p>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<input type="number" id="input" placeholder="enter the winning number" class="form-control">
+					<p>RULES OF THE GAME</p>
+					<p>RULES OF THE GAME</p>
+					<p>RULES OF THE GAME</p>
+					<p>RULES OF THE GAME</p>
+					<p>RULES OF THE GAME</p>
+					<button id="NEW" onclick="NEW()" class="btn">NEW GAME</button>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div id="title2">
+							<p><i class="fas fa-gamepad fa-3x"></i>PLAYER 2</p>
+						</div>
+					</div>
+					<div class="panel-body">
+						<button id="btn2" class="btn" onclick="ROLL2()">ROLL</button>
+						<p id="dice2"></p>
+					</div>
+					<div class="panel-footer">
+						<ol id="player2"> 
+							<p><span id="ply2"></span>Your score is:<span id="output2"></span></p>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="reg" align="center">
+		<form class="form-group">
+			<input type="text" id="ply1" placeholder="player one's name" class="form-control"><br />
+			<input type="text" id="ply2" placeholder="player two's name " class="form-control">
+			<button class="btn" id="play">PLAY</button><br />
+			<ul class="fa-ul">
+				<li><span class="fa-li"><i class="fas fa-spinner fa-pulse">PIG DICE LOADING </i></span></li>
+			</ul>
+		</form>
+	</div>
+	<div class="footer">
+		<div class="row">
+			<div class="col-md-4">
+				<P><i class="fab fa-angrycreative  fa-4x"></i></P>
+				<p><i class="fas fa-tty fa-3x"></i>: 0746152572</p>
+			</div>
+			<div class="col-md-4">
+				<P><i class="fab fa-angrycreative  fa-4x"></i></P>
+				<p><i class="fas fa-tty fa-3x"></i>: 0746152572</p>
+			</div>
+			<div class="col-md-4">
+				<i class="far fa-paper-plane">IDEE FIXE with SHADOWNET</i>
+			</div>
+			<div class="col-md-4">
+				<p><i class="fab fa-cc-paypal fa-3x"></i>Sponsor</p>
+				<p><i class="fab fa-cc-visa fa-3x"></i>Sponsor</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
