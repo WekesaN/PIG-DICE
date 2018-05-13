@@ -1,0 +1,60 @@
+#player1, #player2, #main {
+	display: none;
+}
+#reg {
+	display: table;
+	width: 70%;
+	padding-left: 400px;
+	padding-top: 250px;
+	padding-right: 2px;
+	border-left: 100px;
+	border-color: red;
+
+}
+.align {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	border-left: 100px;
+	border-color: rgb(76, 195, 255);
+	border-style: solid;
+    border-width: 5px;
+    background-color: rgb(40, 183, 255);
+}
+#ply1, #ply2 {
+	background-color: rgb(222, 240, 249);
+}
+#play {
+	background-color: rgb(47, 63, 71);
+	color: rgb(72, 102, 249);
+	border-style: solid;
+	border-right: 3px;
+	border-bottom: 3px;
+	border-top: 3px;
+}
+body {
+	background-color: rgb(193, 186, 56);
+}
+.footer {
+/*	position: fixed;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+.jumbotron {
+	text-decoration: underline;
+	text-align: center;
+	font-family: ariel;
+	font-size: 20vh;
+	font-size: 64px;
+	background-color: rgba(66, 244, 203, 0.9);
+}
+.panel-footer {
+	background-color: rgb(255, 239, 237);
+}
+body {
+	background-image: url("bg.jpg");
+}
