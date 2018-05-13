@@ -33,6 +33,23 @@ $(document).ready(function() {
 	})
 })
 
+$(document).ready(function(){
+	$("btn2").click(function(event){
+
+		score2 = parseInt(player2.text()) + parseInt(score2);
+
+		$("output2").text(score2);
+		$("player2").show();
+
+		event.preventDefault();
+
+		if (score2 >= $("#input").val()) {
+			alert(ply2Input + "YOU HAVE WON !!!")
+			NEW();
+		}
+	})
+})
+
 //BUSINESS LOGIC
 score1 = parseInt(0);
 score2 = parseInt(0);
