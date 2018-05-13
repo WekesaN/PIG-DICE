@@ -19,11 +19,11 @@ As stated above use this link: https://github.com/WekesaN/PIG-DICE togo to the o
 
 ## Built With
 
-###HTML5
-###CSS
-###BOOTSTRAP
-###JAVASCRIPTS
-###JQUERY
+-HTML5
+-CSS
+-BOOTSTRAP
+-JAVASCRIPTS
+-JQUERY
 
 ## Contributing
 
