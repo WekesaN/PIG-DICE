@@ -3,7 +3,7 @@
 $(document).ready(function(){
 	$("#play").click(function(event){
 		$("#main").show();
-		alert("MAKE SURE YOU INSERT THE MAXIMUM NUMBER BEFORE PLAYI")
+		alert("MAKE SURE YOU INSERT THE MAXIMUM NUMBER BEFORE PLAYING")
 		 ply1Input = $("input#ply1").val();
 		 ply2Input = $("input#ply2").val();
 

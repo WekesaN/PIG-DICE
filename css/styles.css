@@ -1,6 +1,9 @@
 #player1, #player2, #main {
 	display: none;
 }
+.panel-footer {
+	font-family: Apple Chancery, cursive;
+}
 #reg {
 	display: table;
 	width: 70%;
@@ -9,6 +12,22 @@
 	padding-right: 2px;
 	border-left: 100px;
 	border-color: red;
+}
+.rules {
+	text-align: center;
+	color: rgb(40, 114, 237, 0.5);
+	font-family: Apple Chancery, cursive;
+}
+.panel-body {
+	background-color: rgb(165, 199, 255);
+	color: rgb(40, 114, 237, 0.5);
+}
+#body {
+	background-color: rgb(165, 199, 255);
+}
+.panel-heading {
+	background-color: rgba(66, 244, 203);
+	color: rgb(40, 114, 237, 0.5);
 }
 .align {
 	display: table-cell;
@@ -32,14 +51,15 @@
 	border-top: 3px;
 }
 body {
-	background-color: rgb(193, 186, 56);
+	background-color: rgb(222, 240, 249);
+	font-family: Apple Chancery, cursive;
 }
 .footer {
 /*	position: fixed;*/
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: red;
+	background-color: rgb(255, 0, 0);
 	color: white;
 	text-align: center;
 	padding-top: 50px;

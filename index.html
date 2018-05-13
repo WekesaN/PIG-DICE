@@ -27,7 +27,7 @@
 			<div class="col-md-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<div id="title1">
+						<div id="title1" id="body">
 							<p>
 								<i class="fas fa-gamepad fa-3x"></i>PLAYER 1
 							</p>
@@ -35,29 +35,31 @@
 						<div class="panel-body">
 							<button id="btn" class="btn" onclick="ROLL()">ROLL</button>
 							<P id="dice"></P>
+						</div>
 							<div class="panel-footer">
 								<ol id="player1">
 									<p><span id="ply1"></span>Your score is:<span id="output1"></span> </p>
 								</ol>
 							</div>
-						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="panel panel-default">
 					<input type="number" id="input" placeholder="enter the winning number" class="form-control">
-					<p>RULES OF THE GAME</p>
-					<p>RULES OF THE GAME</p>
-					<p>RULES OF THE GAME</p>
-					<p>RULES OF THE GAME</p>
-					<p>RULES OF THE GAME</p>
+					<div class="rules" id="body">
+					<p>FILL IN THE MAXIMUM NUMBER ABOVE</p>
+					<p>PLAYER 1 ROLLS THE PLAYER 2 ROLLS</p>
+					<p>IN CASE ON ROLLS 1 HE/SHE STARTS OVER FROM 1</p>
+					<p>NO ROLLING TWICE UNLESS OTHERWISE</p>
+					<p>NO CHEATING</p>
+					</div>
 					<button id="NEW" onclick="NEW()" class="btn">NEW GAME</button>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="panel panel-default">
-					<div class="panel-heading">
+					<div class="panel-heading" id="body">
 						<div id="title2">
 							<p><i class="fas fa-gamepad fa-3x"></i>PLAYER 2</p>
 						</div>
@@ -76,7 +78,7 @@
 		</div>
 	</div>
 	<div id="reg" align="center">
-		<form class="form-group">
+		<form class="align">
 			<input type="text" id="ply1" placeholder="player one's name" class="form-control"><br />
 			<input type="text" id="ply2" placeholder="player two's name " class="form-control">
 			<button class="btn" id="play">PLAY</button><br />
