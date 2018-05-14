@@ -15,18 +15,19 @@
 }
 .rules {
 	text-align: center;
-	color: rgb(40, 114, 237, 0.5);
+	color: rgb(237, 61, 67);
 	font-family: Apple Chancery, cursive;
+	background-color: rgba(66, 244, 203, 0.5);
 }
 .panel-body {
 	background-color: rgba(66, 244, 203, 0.5);
 	color: rgb(237, 61, 67);
 }
 #body {
-	background-color: rgb(165, 199, 255);
+	background-color: rgba(66, 244, 203, 0.5);
 }
-.panel-heading {
-	background-color: rgb(255, 0, 0, 0.7);
+.panel-heading #title2, #title1 {
+	background-color: rgb(255, 0, 0, 0.9);
 	color: rgb(40, 114, 237, 0.5);
 }
 .align {
