@@ -26,10 +26,15 @@
 #body {
 	background-color: rgba(66, 244, 203, 0.5);
 }
-.panel-heading #title2, #title1 {
+.panel-heading ,#title1 {
 	background-color: rgb(255, 0, 0, 0.9);
 	color: rgb(40, 114, 237, 0.5);
 }
+.panel-heading ,#title2 {
+	background-color: rgb(255, 0, 0, 0.9);
+	color: rgb(40, 114, 237, 0.5);
+}
+
 .align {
 	display: table-cell;
 	text-align: center;
