@@ -26,7 +26,7 @@
 	background-color: rgb(165, 199, 255);
 }
 .panel-heading {
-	background-color: rgba(66, 244, 203);
+	background-color: rgb(255, 0, 0, 0.7);
 	color: rgb(40, 114, 237, 0.5);
 }
 .align {
@@ -41,6 +41,10 @@
 }
 #ply1, #ply2 {
 	background-color: rgb(222, 240, 249);
+}
+.btn, #NEW, #play {
+	background-color: rgb(56, 20, 21);
+	color: rgb(237, 61, 67);
 }
 #play {
 	background-color: rgb(47, 63, 71);
